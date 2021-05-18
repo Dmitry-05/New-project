@@ -2,7 +2,7 @@ import unittest
 import sys, os
 
 sys.path.append(os.getcwd())
-from exercises_python import *
+from ex1 import *
 
 class arithmetic_test(unittest.TestCase):
     def test_arithmetic_returns_answers(self):
