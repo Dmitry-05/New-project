@@ -4,6 +4,7 @@ import sys, os
 sys.path.append(os.getcwd())
 from ex1 import *
 
+
 class arithmetic_test(unittest.TestCase):
     def test_arithmetic_returns_answers(self):
         self.assertEqual(arithmetic(2, 3, "+"), 5)

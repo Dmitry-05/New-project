@@ -7,5 +7,6 @@ def is_year_leap(year):
     else:
         return False
 
+
 print(is_year_leap(2000))
 print(is_year_leap(2001))

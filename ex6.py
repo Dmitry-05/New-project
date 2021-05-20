@@ -3,6 +3,7 @@
 
 import math
 
+
 def is_prime(number):
     if number <= 3:
         return True

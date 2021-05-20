@@ -3,7 +3,10 @@
 # площадь квадрата и диагональ квадрата.
 
 import math
+
+
 def square(sidelen):
     return sidelen*2, sidelen**2, sidelen*math.sqrt(2)
+
 
 print(square(4))

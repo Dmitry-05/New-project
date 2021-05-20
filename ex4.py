@@ -12,6 +12,7 @@ def season(months_num):
     if 8 < months_num < 12:
         return "autumn"
 
+
 print(season(1))
 print(season(3))
 print(season(6))

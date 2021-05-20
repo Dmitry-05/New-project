@@ -10,6 +10,7 @@ def bank(a, years):
         a *= 1.1
     return round(a, 2)
 
+
 print(bank(1000, 2))
 print(bank(1000, 5))
 print(bank(1000, 10))
